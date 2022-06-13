@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_refresh"
+        android:title="Refresh"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/nav_search"
+        android:title="Search"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/search_Name"
+                android:title="Name"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/search_IDNumber"
+                android:title="ID Number"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/search_Address"
+                android:title="Address"
+                app:showAsAction="never"/>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/nav_Course"
+        android:title="Course"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/search_IT"
+                android:title="BSIT"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/search_CS"
+                android:title="BSCS"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/search_EMC"
+                android:title="BSEMC - DAT"
+                app:showAsAction="never"/>
+        </menu>
+
+    </item>
+
+
+</menu>
